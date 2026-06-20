@@ -421,7 +421,6 @@ export default function CompaniesPage() {
           </div>
         </div>
       )}
-      )}
 
       {/* Toast */}
       {toast && (
