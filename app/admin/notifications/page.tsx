@@ -6,7 +6,7 @@ import { formatDateTime, NOTIFICATION_TYPE_LABELS } from '@/lib/utils';
 import { Bell, Send, Users, Building2, CheckCircle2, X, AlertTriangle, Info, Wrench } from 'lucide-react';
 
 export default function NotificationCenterPage() {
-  const { companies, notifications, addNotification } = useStore();
+  const { session, companies, notifications, addNotification } = useStore();
   const [composeOpen, setComposeOpen] = useState(false);
   const [toast, setToast] = useState('');
 
